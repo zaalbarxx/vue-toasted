@@ -1,7 +1,7 @@
 {
-  "name": "@andrewbastin/vue-toasted",
+  "name": "@hoppscotch/vue-toasted",
   "description": "Port of vue-toasted to Vue 3",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "private": false,
   "author": "Andrew Bastin <andrew@hoppscotch.io>",
   "license": "MIT",
@@ -9,9 +9,12 @@
     "type": "git",
     "url": "https://github.com/AndrewBastin/vue-toasted.git"
   },
-  "main": "./dist/vue-toasted.js",
-  "module": "./dist/vue-toasted.mjs",
-  "types": "./types/index.d.ts",
+  "files": [
+    "dist/style.css"
+  ],
+  "main": "dist/vue-toasted.js",
+  "module": "dist/vue-toasted.mjs",
+  "types": "types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/vue-toasted.mjs",
