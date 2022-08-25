@@ -5,9 +5,10 @@ import Vue from "@vitejs/plugin-vue"
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.js'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'Toasted',
-      fileName: 'vue-toasted'
+      fileName: 'vue-toasted',
+      formats: ["cjs", "es"]
     },
     rollupOptions: {
       external: ['vue'],

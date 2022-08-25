@@ -8,8 +8,15 @@
     "type": "git",
     "url": "https://github.com/AndrewBastin/vue-toasted.git"
   },
-  "main": "./dist/vue-toasted.min.js",
+  "main": "./dist/vue-toasted.js",
+  "module": "./dist/vue-toasted.mjs",
   "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-toasted.mjs",
+      "require": "./dist/vue-toasted.js"
+    }
+  },
   "browserslist": [
     "last 7 versions"
   ],
