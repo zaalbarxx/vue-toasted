@@ -1,7 +1,8 @@
 import Hammer from 'hammerjs';
 import animations from './animations'
-import {toastObject} from './object'
-const uuid = require('shortid');
+import uuid from "shortid";
+
+import { toastObject } from './object'
 
 // string includes polyfill
 if (!String.prototype.includes) {
