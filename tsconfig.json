@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "baseUrl": ".",
     "module": "ESNext",
     "target": "es2016",
@@ -8,7 +7,6 @@
     "strict": true,
     "esModuleInterop": true,
     "incremental": true,
-    "jsx": "preserve",
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -25,7 +23,7 @@
       "~/*": ["src/*"]
     }
   },
-  "include": ["src", "./vue-shim.d.ts", "demo"],
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "**/**/*.test.ts",

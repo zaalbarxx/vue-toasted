@@ -8,7 +8,6 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'Toasted',
       fileName: 'vue-toasted',
-      formats: ["cjs", "es"]
     },
     rollupOptions: {
       external: ['vue'],

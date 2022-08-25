@@ -13,7 +13,24 @@ const toast = useToasted()
 
 onMounted(() => {
   setTimeout(() => {
-    toast.show("hello!")
+    toast.show("hello!", {
+      duration: 0,
+      action: [
+        {
+          text: `Learn more`,
+          onClick: (_, toastObject) => {
+            toastObject.goAway(0)
+            window.open("about:blank", "_blank")?.focus()
+          },
+        },
+        {
+          text: `Dismiss`,
+          onClick: (_, toastObject) => {
+            toastObject.goAway(0)
+          },
+        },
+      ],
+    })
   })
 })
 console.log(toast)

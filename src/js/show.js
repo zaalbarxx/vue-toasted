@@ -281,7 +281,6 @@ const appendIcon = (options, el, toast) => {
  */
 const createAction = (action, toastObject) => {
 
-
 	if (!action) {
 		return null;
 	}
@@ -297,7 +296,7 @@ const createAction = (action, toastObject) => {
 	el.classList.add('ripple');
 
 	if (action.text) {
-		el.text = action.text
+		el.textContent = action.text
 	}
 
 	if (action.href) {
