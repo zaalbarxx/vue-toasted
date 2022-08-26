@@ -2015,7 +2015,7 @@ const ni = function(e) {
   if (!e)
     return null;
   let n;
-  if (e.href ? n = document.createElement("a") : n = document.createElement("button"), n.classList.add("action"), n.classList.add("ripple"), e.text && (n.text = e.text), e.href && (n.href = e.href), e.target && (n.target = e.target), e.icon) {
+  if (e.href ? n = document.createElement("a") : n = document.createElement("button"), n.classList.add("action"), n.classList.add("ripple"), e.text && (n.textContent = e.text), e.href && (n.href = e.href), e.target && (n.target = e.target), e.icon) {
     n.classList.add("icon");
     let a = document.createElement("i");
     switch (Ge.iconPack) {
