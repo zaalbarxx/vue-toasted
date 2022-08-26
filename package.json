@@ -1,13 +1,13 @@
 {
   "name": "@hoppscotch/vue-toasted",
   "description": "Port of vue-toasted to Vue 3",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "private": false,
-  "author": "Andrew Bastin <andrew@hoppscotch.io>",
+  "author": "The Hoppscotch Team <support@hoppscotch.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndrewBastin/vue-toasted.git"
+    "url": "https://github.com/hoppscotch/vue-toasted.git"
   },
   "files": [
     "dist"
