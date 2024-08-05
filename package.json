@@ -1,7 +1,7 @@
 {
-  "name": "@hoppscotch/vue-toasted",
+  "name": "@zaalbarxx/vue-toasted",
   "description": "Port of vue-toasted to Vue 3",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "author": "The Hoppscotch Team <support@hoppscotch.io>",
   "license": "MIT",
@@ -17,6 +17,7 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue-toasted.mjs",
       "require": "./dist/vue-toasted.umd.js"
     },

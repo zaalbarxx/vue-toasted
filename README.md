@@ -1,4 +1,4 @@
-# [@hoppscotch/vue-toasted](https://www.npmjs.com/package/@hoppscotch/vue-toasted)
+# [@zaalbarxx/vue-toasted](https://www.npmjs.com/package/@zaalbarxx/vue-toasted)
 
 ### A Vue 3 port of the [vue-toasted](https://github.com/shakee93/vue-toasted) library.
 
@@ -8,7 +8,7 @@
 ## Install
 - Install the package from npm
   ```bash
-  npm install @hoppscotch/vue-toasted
+  npm install @zaalbarxx/vue-toasted
   ```
 
 ## Usage
@@ -16,12 +16,12 @@
   For example, for a Vite Vue application
   ```js
   // main.js
-  import Toasted from "@hoppscotch/vue-toasted"
+  import Toasted from "@zaalbarxx/vue-toasted"
   import { createApp } from "vue"
   import App from "./App.vue"
   
   // Make sure to include the default stylings
-  import "@hoppscotch/vue-toasted/style.css"
+  import "@zaalbarxx/vue-toasted/style.css"
   
   const app = createApp(App)
 
