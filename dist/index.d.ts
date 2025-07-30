@@ -153,6 +153,8 @@ export interface Toasted {
   global: any
 }
 
+declare const ToastedPlugin: Plugin
+
 export const useToasted: () => Toasted
 
-export default Plugin 
+export default ToastedPlugin

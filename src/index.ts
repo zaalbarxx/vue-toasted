@@ -1,12 +1,11 @@
-import { Plugin } from "vue"
-import { Toasted as T } from './js/toast';
-import ToastComponent from './toast.vue';
+import type { Plugin } from "vue"
+import { Toasted } from './js/toast';
+import ToastComponent from "./toast.vue";
+let toastInstance: any = null;
 
-let toastInstance: any = null 
-
-const Toasted: Plugin = {
+const ToastedPlugin: Plugin = {
     install(app, options) {
-        toastInstance = new T(options ?? {});
+        toastInstance = new Toasted(options ?? {});
 
         app.component('toasted', ToastComponent as any);
 
@@ -17,4 +16,4 @@ const Toasted: Plugin = {
 
 export const useToasted = () => toastInstance
 
-export default Toasted
+export default ToastedPlugin

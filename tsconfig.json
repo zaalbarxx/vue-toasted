@@ -13,11 +13,12 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": true,
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "./dist",
     "types": [
-      "vite/client",
+      "vite/client"
     ],
     "paths": {
       "~/*": ["src/*"]
