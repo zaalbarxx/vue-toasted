@@ -1,7 +1,7 @@
 {
   "name": "@zaalbarxx/vue-toasted",
   "description": "Port of vue-toasted to Vue 3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "author": "The Hoppscotch Team <support@hoppscotch.io>",
   "license": "MIT",
